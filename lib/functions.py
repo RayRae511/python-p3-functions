@@ -3,17 +3,17 @@
 def greet_programmer():
     pass
     print("Hello, programmer!")
-    
+greet_programmer()    
 
 def greet(name = 'Guest'):
     pass
-    print('Hello' + name)
-
+    print(f'Hello, {name}')
+greet()
 
 def greet_with_default(name = "programmer"):
     pass
-    print('Hi there' + name)
-
+    print(f'Hi there {name}')
+greet_with_default()
     
 def add(num1, num2):
     pass
