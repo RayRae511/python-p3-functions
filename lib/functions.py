@@ -7,12 +7,12 @@ def greet_programmer():
 
 def greet(name = 'Guest'):
     pass
-    print('Hello, {name}!')
+    print('Hello' + name)
 
 
-def greet_with_default(name="programmer"):
+def greet_with_default(name = "programmer"):
     pass
-    print('Hi there, {name}')
+    print('Hi there' + name)
 
     
 def add(num1, num2):
